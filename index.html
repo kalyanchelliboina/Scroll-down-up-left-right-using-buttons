@@ -1,0 +1,43 @@
+#Scroll down, up, left, right using buttons
+
+
+//Create a function
+
+
+<script>
+
+function scrollThrough(x, y) {
+      window.scrollBy(x, y);
+}
+
+</script>
+
+
+//create buttons
+
+
+<button type="button" onclick="scrollThrough(0, 50)">Scroll down</button>
+<button type="button" onclick="scrollThrough(0, -50)">Scroll up</button>
+<button type="button" onclick="scrollThrough(50, 0)">Scroll right</button>
+<button type="button" onclick="scrollThrough(-50, 0)">Scroll left</button>
+
+
+
+//give width and height to the body
+
+
+<style>
+
+     body {
+      
+           width: 2000px;
+           height: 2000px;
+
+}
+
+</style>
+
+
+
+
+//done
